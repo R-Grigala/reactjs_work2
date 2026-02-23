@@ -1,0 +1,25 @@
+.navbar {
+  height: 6vh;
+  background-color: blue;
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+  gap: 16;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+}
+
+.navbardiv {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px 5px;
+}
+
+.activeTab {
+  border-bottom: 1px solid white;
+}
